@@ -9,7 +9,8 @@
 /* Tipografía */
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto-regular-webfont.woff") format("woff2"), url("../font/roboto-regular-webfont.woff2") format("woff");
+  src: url("../font/roboto-regular-webfont.woff") format("woff2"), 
+       url("../font/roboto-regular-webfont.woff2") format("woff");
 }
 
 /* ******************************** */
