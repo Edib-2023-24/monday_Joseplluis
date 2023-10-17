@@ -30,4 +30,19 @@ html{
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
+
+/*header{
+  font-size: 20px;
+
+ &section.redes{
+  font-size: 1em;
+  } 
+}*/ 
+
+
+/*.cajaloquesea{
+  grid-column: 3/4;
+  grid-row: 1/2;
+  font-size: 1.3em;
+}*/
 /* ******************************** */
