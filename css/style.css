@@ -8,8 +8,8 @@
 
 /* Tipografía */
 @font-face {
-  font-family: "";
-  src: url("") format("woff2"), url("") format("woff");
+  font-family: "Roboto";
+  src: url("../font/roboto-regular-webfont.woff") format("woff2"), url("../font/roboto-regular-webfont.woff2") format("woff");
 }
 
 /* ******************************** */
@@ -24,3 +24,8 @@
   --turquesa: #3b8c84;
 }
 /* ******************************** */
+/* GENERICO */
+html{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
