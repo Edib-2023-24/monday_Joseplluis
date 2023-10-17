@@ -47,7 +47,31 @@
       <!-- *** ESTRUCTURA SEMÁNTICA *** -->
       <!-- Header (encabezado de la página, zona superior) -->
       <header>
-      
+        <picture class="header__banner">
+                <!-- smartphone -->
+                <source
+                srcset="
+                img/smartphone/banner.webp,
+                img/smartphone/banner 1.webp,
+                img/smartphone/banner2.webp
+                "
+                media="(min-width:320px) and (orientation:portrait)"
+                />
+                
+                <!-- desktop -->
+                <source
+                    srcset="
+                        img/desktop/banner.webp    1x,
+                        img/desktop/banner@2x.webp 2x
+                    "
+                    media="(min-width:1000px)"
+                />
+                <img src="" alt="nubes altas entre montañas" decoding="async" loading="lazy" />
+            </picture>
+
+            <nav>
+              <a href="Servicios.html">Servicios</a>
+            </nav>
       </header>
      
       <main>
@@ -55,6 +79,11 @@
       </main>
     
       <footer>
+        <section class="footer-redes">
+          <a href="" class="footer-" target="_blank"><img src="svg/Group.svg" alt=""/></a>
+          <a href="" class="footer-" target="_blank"></a>
+          <a></a>
+        </section>
         <h6>&copy;Copyright</h6>
       </footer>
     </div>
